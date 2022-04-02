@@ -1,0 +1,5 @@
+Marks: ma, 'a
+Makro: q12w
+Register: "ayiw, "ap ; "byiw "bp
+
+Which-key eksempel: ff, fp
