@@ -7,8 +7,7 @@ public class Test {
     public static void main(String[] args) {
         String hello = "hello";
         hello.length();
-        List<String> goodbye;
-        
+       List<String> goodbye;
     }
 
     public Test(String hello) {

@@ -11,6 +11,10 @@
 \date{\today}
 
 \begin{document}
+
+\begin{frame}
+\end{frame}
+
 \begin{frame}
 	\titlepage
 \end{frame}
@@ -24,7 +28,7 @@
 					      \item Vim - 1991
 					      \item Neovim - 2014
 				      \end{itemize}
-				\item ``Modal`` terminal-based editor
+				\item Terminal-basert editor
 			\end{itemize}
 		\end{column}
 		\begin{column}{0.25\textwidth}
@@ -57,7 +61,7 @@
 			\item h,j,k,l $\rightarrow$ Flytt som piltastene
 			\item w, b, e $\rightarrow$ Flytt ordvis
 			\item 0,\$ $\rightarrow$ Start og slutt av linje
-			\item $<$C-d$>$, $<$C-u$>$, zz $\rightarrow$ Flytte vinduet
+			\item $<$C-d$>$, $<$C-u$>$, zz $\rightarrow$ Scrolling
 			\item i,I,A $\rightarrow$ Insert mode
 			\item $<$Esc$>$ $\rightarrow$ Normal mode
 		\end{itemize}
@@ -65,7 +69,7 @@
 	\end{center}
 \end{frame}
 
-\begin{frame}{``You don't grok vi'' - Vim som et språk med operatorer}
+\begin{frame}{Vim som et språk med operatorer}
 	\begin{center}
 		\begin{columns}
 			\begin{column}{0.5\textwidth}
@@ -123,7 +127,9 @@
 	\begin{itemize}
 		\item Vimscript/Lua konfigurasjon
 		\item LSP
+		\item Treesitter
 		\item Must-have plugins
+        \item Neovim only
 	\end{itemize}
 \end{frame}
 
@@ -149,6 +155,16 @@
 			      \item Utrolig mye mer
 		      \end{itemize}
 	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Treesitter}
+\begin{itemize}
+    \item Parser generator som genererer raske incremental parsere
+    \item Syntax-highlighting, refaktorering, søking
+    \item Stort potensiale for plugins
+\end{itemize}
+
 \end{frame}
 
 \begin{frame}{``Must-have`` plugins}
@@ -178,22 +194,24 @@
 
 \begin{frame}{Siste tips}
     \begin{itemize}
+        \item Prøv Vim i hvertfall 2-4 uker
         \item Map Caps lock til Escape
-        \item Vimtutor
-        \item Bruk :h
-        \item Open-source utvikling
-        \item Pre-made konfigurasjoner
+        \item Vimtutor / Vim-adventures
+        \item Pre-made konfigurasjoner (LunarVim)
     \end{itemize}
 \end{frame}
 \begin{frame}{Takk for meg!}
     \begin{itemize}
         \item \url{https://www.vim.org/}
         \item \url{https://neovim.io/}
+        \item \url{https://github.com/LunarVim/LunarVim}
         \item \url{https://github.com/jakobkhansen/dotfiles/}
-
         \item \url{https://github.com/jakobkhansen/VimTalk}
     \end{itemize}
     :wq
+\end{frame}
+
+\begin{frame}
 \end{frame}
 
 
